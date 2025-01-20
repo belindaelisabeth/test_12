@@ -1,0 +1,110 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+/* Header Section */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.logo span {
+  font-weight: bold;
+  color: #2d36eb;
+}
+
+.logo img {
+  height: 100px;
+}
+
+nav .nav-item a {
+  font-weight: 600;
+  font-size: 12;
+  margin-left: 15px;
+}
+nav .nav-item .nav-link.active {
+  color: #2d36eb;
+}
+nav .nav-item .nav-link:hover {
+  color: #2d36eb;
+}
+
+/* Home page .banner sectiom */
+.home-banner {
+  background: #2d36eb;
+}
+
+.home-banner .left {
+  color: #fff;
+}
+
+.home-banner .left h4 {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.home-banner .left h2 {
+  font-weight: 700;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.home-banner .left h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home-banner .left .button a {
+  background: #fff;
+  color: #2d36eb;
+  border-radius: 0;
+  border: 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+}
+
+.home-banner .left .button a:hover {
+  background: #3b3b3b;
+  color: #fff;
+}
+
+.home-banner .left p {
+  font-size: 16px;
+}
+
+.home-banner .right {
+  text-align: right;
+}
+
+.home-banner .right img {
+  max-width: 100%;
+}
+
+/* Home page  .about section */
+.home-about {
+  background: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.home-about .left img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #d8d8d8;
+}
+
+.home-about .right h3 {
+  font-size: 16px;
+  color: #2d36eb;
+}
+.home-about .right h2 {
+  font-weight: 700;
+  font-size: 34px;
+}
+.home-about .right p {
+  font-size: 14px;
+}
+
+.home-about .contact-info table tr td {
+  font-size: 14px;
+}
