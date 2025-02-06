@@ -2,6 +2,11 @@ body {
   font-family: "poppins", sans-serif;
 }
 
+/* Common Style */
+.w-0 {
+  width: 0%;
+}
+
 /* Header Section */
 .dropdown:hover .dropdown-menu {
   display: block;
@@ -107,4 +112,69 @@ nav .nav-item .nav-link:hover {
 
 .home-about .contact-info table tr td {
   font-size: 14px;
+}
+.home-about .contact-info i {
+  color: #2d36eb;
+}
+.home-about .contact-info table tr td:nth-child(1) {
+  width: 30px;
+}
+
+.home-about .social {
+  margin-top: 15px;
+}
+
+.home-about .social h3 {
+  color: #333;
+  font-weight: 600px;
+}
+
+.home-about .social ul {
+  padding-left: 0;
+}
+
+.home-about .social ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #2d36eb;
+}
+
+.home-about .social ul li a {
+  color: #fff;
+  display: block;
+}
+
+/* Home page  - skill section */
+.home-skill {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.home-skill h2 {
+  color: #2d36eb;
+  font-size: 14px;
+  text-align: center;
+}
+
+.home-skill h3 {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-skill .progress-text {
+  font-size: 14px;
+}
+
+.home-skill .progress {
+  margin-bottom: 20px;
+}
+
+.home-skill ..progress-bar {
+  background: #2d36eb;
 }
