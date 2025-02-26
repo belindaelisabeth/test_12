@@ -178,3 +178,64 @@ nav .nav-item .nav-link:hover {
 .home-skill ..progress-bar {
   background: #2d36eb;
 }
+
+/* Home page .qualification sectiom */
+
+.home-qualification {
+  background: #f2f2f2;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.home-qualification .inner h2 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2d36eb;
+}
+
+.home-qualification .item {
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.home-qualification .item:before {
+  content: "\f192";
+  font-family: "Font Awesome 5 free";
+  font-weight: normal;
+  font-size: 20px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  z-index: 100;
+  background: #f2f2f2;
+  color: #2d36eb;
+}
+
+.home-qualification .inner .item .v-line {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 2px;
+  height: 100%;
+  background-color: #2d36eb;
+  z-index: 1;
+}
+
+.home-qualification .item h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.home-qualification .item h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home-qualification .item .time {
+  font-size: 14px;
+  font-weight: 500;
+  color: #808080;
+}
